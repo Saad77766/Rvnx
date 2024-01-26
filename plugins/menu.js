@@ -94,8 +94,17 @@ const caption =`
 
 
 await conn.sendMessage( m.chat, {
+        video: {
+          url: 
+        },
+        caption: caption,
+        gifPlayback: true,
+        gifAttribution: Math.floor( Math.random( ) * 2 ) + 1
+      }, {
+        quoted: m
+      } );
         
-}
+
 
 handler.help = ['allmenu']
 handler.tags = ['main']
