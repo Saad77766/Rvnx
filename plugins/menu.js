@@ -1,4 +1,5 @@
-BOOT RVNX
+let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems })  => {
+const caption =`
 
 
   ‎‎الذكاء الاصطناعي ومشتقاته
