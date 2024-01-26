@@ -94,15 +94,7 @@ const caption =`
 
 
 await conn.sendMessage( m.chat, {
-        video: {
-          url: 'https://telegra.ph/file/bba27bc6b305ac6a5229d.mp4'
-        },
-        caption: caption,
-        gifPlayback: true,
-        gifAttribution: Math.floor( Math.random( ) * 2 ) + 1
-      }, {
-        quoted: m
-      } );
+        
 }
 
 handler.help = ['allmenu']
